@@ -1,4 +1,5 @@
 1、反转字符串中的单词 III
+````Java
 class Solution {
     public String reverseWords(String s) {
         String[] strs = s.split(" ");
@@ -10,8 +11,10 @@ class Solution {
         return buffer.toString().trim();
     }
 }
+````
 
 2、螺旋矩阵
+````Java
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List ans = new ArrayList();
@@ -34,3 +37,4 @@ class Solution {
         return ans;
     }
 }
+````
